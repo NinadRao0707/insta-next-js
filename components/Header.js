@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/image'
 import { 
     SearchIcon,
     PlusCircleIcon,
@@ -6,8 +6,8 @@ import {
     HeartIcon,
     PaperAirplaneIcon,
     MenuIcon,
-} from '@heroicons/react/outline';
-import {HomeIcon} from '@heroicons/react/solid';
+} from '@heroicons/react/outline'
+import {HomeIcon} from '@heroicons/react/solid'
 
 function Header() {
     return (
@@ -17,7 +17,6 @@ function Header() {
                 <div className="relative hidden lg:inline-grid w-24 cursor-pointer">
                     <Image src="https://links.papareact.com/ocw" layout="fill" objectFit='contain' />
                 </div>
-
                 <div className="relative lg:hidden flex-shrink-0 w-10 cursor-pointer">
                     <Image src="https://links.papareact.com/jjm" layout="fill" objectFit='contain' />
                 </div>
